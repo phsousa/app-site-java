@@ -28,7 +28,7 @@ public class PessoaService {
 	 * @param pessoa
 	 * @return
 	 */
-	@RequestMapping(name="/pessoa", method = RequestMethod.POST, consumes=MediaType.APPLICATION_JSON_UTF8_VALUE,produces=MediaType.APPLICATION_JSON_UTF8_VALUE)
+	@RequestMapping(name="/pessoa", method = RequestMethod.POST, produces=MediaType.APPLICATION_JSON_UTF8_VALUE)
 	public @ResponseBody ResponseModel salvar(@RequestBody PessoaModel pessoa){
  
  

@@ -19,7 +19,7 @@ public class PessoaModel {
 	@Column(name="ds_nome")
 	private String  nome;
  
-	@Column(name="fl_ativo", columnDefinition="BIT")
+	@Column(name="fl_ativo")
 	private boolean ativo;
  
 	public Long getCodigo() {
